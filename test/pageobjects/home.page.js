@@ -29,6 +29,9 @@ class HomePage extends Page{
     get backBtn() {
         return $('button[aria-label="Go back in Site Navigation"]');
     }
+    get acceptCookiesBtn() {
+        return $('button[class="optanon-allow-all accept-cookies-button"]');
+    }
 
     open() {
         super.open('https://www.volvocars.com/intl/v/car-safety/a-million-more')

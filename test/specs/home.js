@@ -1,5 +1,6 @@
 import HomePage from '../pageobjects/home.page';
 import chai from 'chai';
+import homePage from '../pageobjects/home.page';
 const assert = chai.assert
 , chaiExpect = chai.expect
 , chaiShould = chai.should();
@@ -7,7 +8,7 @@ const assert = chai.assert
 describe('menu items', () => {
     before(() => {
         HomePage.open();
-        HomePage.acceptCookies;
+        
     })
     it('should verify the title', () => {
         expect(browser).toHaveTitle('A million more | Volvo Cars - International');
@@ -17,30 +18,30 @@ describe('menu items', () => {
     })
     it('should test the menu items to be clickable', () => {
 
+        homePage.acceptCookiesBtn.waitForDisplayed(); // Explicit wait
         HomePage.acceptCookiesBtn.click();
-        browser.pause(2000);
+        browser.pause(1000); // Implicit wait
         HomePage.hamMenuBtn.click();
-        browser.pause(1000);
+        homePage.menuItem1.waitForDisplayed();
 
         HomePage.menuItem2.click();
-        browser.pause(1000);
+        homePage.backBtn.waitForDisplayed();
         HomePage.backBtn.click();
-        browser.pause(1000);
+        homePage.menuItem2.waitForDisplayed();
 
         HomePage.menuItem3.click();
-        browser.pause(1000);
+        homePage.backBtn.waitForDisplayed();
         HomePage.backBtn.click();
-        browser.pause(1000);
+        homePage.menuItem3.waitForDisplayed();
 
         HomePage.menuItem4.click();
-        browser.pause(1000);
+        homePage.backBtn.waitForDisplayed();
         HomePage.backBtn.click();
-        browser.pause(1000);
+        homePage.menuItem4.waitForDisplayed();
 
         HomePage.menuItem5.click();
-        browser.pause(1000);
+        homePage.backBtn.waitForDisplayed();
         HomePage.backBtn.click();
-        browser.pause(1000);
 
         expect(HomePage.menuBody).toBeExisting();
         
