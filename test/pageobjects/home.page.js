@@ -8,6 +8,9 @@ class HomePage extends Page{
     get menuBody() {
         return $('div[class="_SiteNav-a _SiteNav-c _SiteNav-d _SiteNav-en _SiteNav-fj _SiteNav-fk _SiteNav-fl _SiteNav-fm _SiteNav-fn _SiteNav-h _SiteNav-j"]');
     }
+    get menuItems() {
+        return $$('div[data-autoid="nav:sideNavLinksMenu"] button');
+    }
     get menuItem1() {
         return $('div[data-autoid="nav:sideNavLinksMenu"] button:nth-child(1)');
     }

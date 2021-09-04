@@ -1,4 +1,8 @@
 import HomePage from '../pageobjects/home.page';
+import chai from 'chai';
+const assert = chai.assert
+, chaiExpect = chai.expect
+, chaiShould = chai.should();
 
 describe('menu items', () => {
     before(() => {
@@ -7,6 +11,9 @@ describe('menu items', () => {
     })
     it('should verify the title', () => {
         expect(browser).toHaveTitle('A million more | Volvo Cars - International');
+    })
+    it('should verify that len of the menu items to be 5', () => {
+        chaiExpect(HomePage.menuItems).to.have.lengthOf(5);
     })
     it('should test the menu items to be clickable', () => {
 
