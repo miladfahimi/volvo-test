@@ -1,6 +1,7 @@
 import HomePage from '../pageobjects/home.page';
 import chai from 'chai';
 import homePage from '../pageobjects/home.page';
+import { waitAndClick } from '../../utilities/helper';
 const assert = chai.assert
 , chaiExpect = chai.expect
 , chaiShould = chai.should();
@@ -20,28 +21,14 @@ describe('menu items', () => {
 
         homePage.acceptCookiesBtn.waitForDisplayed(); // Explicit wait
         HomePage.acceptCookiesBtn.click();
-        browser.pause(1000); // Implicit wait
+        browser.pause(2000); // Implicit wait
         HomePage.hamMenuBtn.click();
-        homePage.menuItem1.waitForDisplayed();
-
-        HomePage.menuItem2.click();
-        homePage.backBtn.waitForDisplayed();
-        HomePage.backBtn.click();
         homePage.menuItem2.waitForDisplayed();
 
-        HomePage.menuItem3.click();
-        homePage.backBtn.waitForDisplayed();
-        HomePage.backBtn.click();
-        homePage.menuItem3.waitForDisplayed();
-
-        HomePage.menuItem4.click();
-        homePage.backBtn.waitForDisplayed();
-        HomePage.backBtn.click();
-        homePage.menuItem4.waitForDisplayed();
-
-        HomePage.menuItem5.click();
-        homePage.backBtn.waitForDisplayed();
-        HomePage.backBtn.click();
+        waitAndClick(HomePage.menuItem2, homePage.backBtn,);
+        waitAndClick(HomePage.menuItem3, homePage.backBtn,);
+        waitAndClick(HomePage.menuItem4, homePage.backBtn,);
+        waitAndClick(HomePage.menuItem5, homePage.backBtn,);
 
         expect(HomePage.menuBody).toBeExisting();
         
