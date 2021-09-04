@@ -34,7 +34,7 @@ class HomePage extends Page{
     }
 
     open() {
-        super.open('https://www.volvocars.com/intl/v/car-safety/a-million-more')
+        super.open('/intl/v/car-safety/a-million-more')
     }
 
     acceptCookies() {

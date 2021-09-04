@@ -12,7 +12,7 @@ class FleetPage extends Page {
     }
 
     open() {
-        super.open('https://www.volvocars.com/intl/v/buy/fleet-cars')
+        super.open('/intl/v/buy/fleet-cars')
     }
     acceptCookies() {
         super.acceptCookiesBtn().click();

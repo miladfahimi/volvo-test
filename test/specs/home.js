@@ -2,6 +2,7 @@ import HomePage from '../pageobjects/home.page';
 import chai from 'chai';
 import homePage from '../pageobjects/home.page';
 import { waitAndClick } from '../../utilities/helper';
+
 const assert = chai.assert
 , chaiExpect = chai.expect
 , chaiShould = chai.should();
