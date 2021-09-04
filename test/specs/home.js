@@ -1,11 +1,12 @@
 import HomePage from '../pageobjects/home.page';
 
 describe('menu items', () => {
-    it('should open the main page nad verify the title', () => {
+    before(() => {
         HomePage.open();
-        expect(browser).toHaveTitle('A million more | Volvo Cars - International');
         HomePage.acceptCookies;
-        browser.pause(2000);
+    })
+    it('should verify the title', () => {
+        expect(browser).toHaveTitle('A million more | Volvo Cars - International');
     })
     it('should test the menu items to be clickable', () => {
 

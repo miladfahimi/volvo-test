@@ -4,12 +4,13 @@ const assert = chai.assert
 , chaiExpect = chai.expect
 , chaiShould = chai.should();
 
-  describe('Test fleet page', () => {
-    it('should open the fleet page nad verify the title', () => {
+describe('Test fleet page', () => {
+    before(() => {
         FleetPage.open();
-        expect(browser).toHaveTitle('Fleet cars | Volvo cars - International');
         FleetPage.acceptCookies;
-        browser.pause(5000);
+    })
+    it('should verify the title', () => {
+        expect(browser).toHaveTitle('Fleet cars | Volvo cars - International');
     })
       it('should have a url containing -> /buy/fleet-cars', () => {
         chaiExpect(FleetPage.url).to.include('/buy/fleet-cars');
