@@ -2,6 +2,7 @@ import HomePage from '../pageobjects/home.page';
 import chai from 'chai';
 import homePage from '../pageobjects/home.page';
 import { waitAndClick } from '../../utilities/helper';
+import resources from '../../resources';
 
 const assert = chai.assert
 , chaiExpect = chai.expect
@@ -13,7 +14,7 @@ describe('menu items', () => {
         
     })
     it('should verify the title', () => {
-        expect(browser).toHaveTitle('A million more | Volvo Cars - International');
+        expect(browser).toHaveTitle(resources.homeTitle);
     })
     it('should verify that len of the menu items to be 5', () => {
         chaiExpect(HomePage.menuItems).to.have.lengthOf(5);

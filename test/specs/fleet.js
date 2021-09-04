@@ -1,5 +1,6 @@
 import FleetPage from '../pageobjects/fleet.page';
 import chai from 'chai';
+import resources from '../../resources';
 const assert = chai.assert
 , chaiExpect = chai.expect
 , chaiShould = chai.should();
@@ -10,7 +11,7 @@ describe('Test fleet page', () => {
         FleetPage.acceptCookies;
     })
     it('should verify the title', () => {
-        expect(browser).toHaveTitle('Fleet cars | Volvo cars - International');
+        expect(browser).toHaveTitle(resources.fleetTitle);
     })
       it('should have a url containing -> /buy/fleet-cars', () => {
         chaiExpect(FleetPage.url).to.include('/buy/fleet-cars');
