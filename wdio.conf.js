@@ -137,7 +137,16 @@ exports.config = {
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: [['allure', {
         outputDir: './reports/allure-results/',
-    }]],
+    }], [
+        'junit',
+        {
+            outputDir: './report',
+            outputFileFormat: function (option) {
+                return 'results-'+ moment().format('DD-MMM-YYYY-HH-MM-SS') + '.xml';
+            }
+        }
+    ]
+    ],
 
 
     

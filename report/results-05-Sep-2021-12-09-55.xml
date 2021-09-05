@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="menu_items" timestamp="2021-09-05T12:55:49" time="8.909" tests="3" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="menu items"/>
+      <property name="capabilities" value="chrome.93_0_4577_63.linux"/>
+      <property name="file" value="./test/specs/home.js"/>
+    </properties>
+    <testcase classname="chrome.93_0_4577_63.linux.menu_items" name="should_verify_the_title" time="0.318">
+      <system-out>
+        <![CDATA[
+COMMAND: getTitle - {}
+RESULT: undefined
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.93_0_4577_63.linux.menu_items" name="should_verify_that_len_of_the_menu_items_to_be_5" time="1.652">
+      <error message="expected [ Array(5) ] to have a length of 4 but got 5"/>
+      <system-out>
+        <![CDATA[
+COMMAND: findElements - {"using":"css selector","value":"div[data-autoid=\"nav:sideNavLinksMenu\"] button"}
+RESULT: undefined
+COMMAND: takeScreenshot - {}
+RESULT: undefined
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+AssertionError: expected [ Array(5) ] to have a length of 4 but got 5
+    at Context.<anonymous> (/mnt/c/Users/Milad/Desktop/volvo-mocha/test/specs/home.js:20:48)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.93_0_4577_63.linux.menu_items" name="should_test_the_menu_items_to_be_clickable" time="5.603">
+      <system-out>
+        <![CDATA[
+COMMAND: findElement - {"using":"css selector","value":"button[class=\"optanon-allow-all accept-cookies-button\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-6","ELEMENT":"ELEMENT-6"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"button[class=\"optanon-allow-all accept-cookies-button\"]"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-7"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#sitenav-v2-sidenav-toggle"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-8"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"div[data-autoid=\"nav:sideNavLinksMenu\"] button:nth-child(2)"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-9","ELEMENT":"ELEMENT-9"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"div[data-autoid=\"nav:sideNavLinksMenu\"] button:nth-child(2)"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"button[aria-label=\"Go back in Site Navigation\"]"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-10"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"button[aria-label=\"Go back in Site Navigation\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-11","ELEMENT":"ELEMENT-11"}]}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-11"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-10","ELEMENT":"ELEMENT-10"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"div[data-autoid=\"nav:sideNavLinksMenu\"] button:nth-child(3)"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"button[aria-label=\"Go back in Site Navigation\"]"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"button[aria-label=\"Go back in Site Navigation\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-13","ELEMENT":"ELEMENT-13"}]}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-13"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-12","ELEMENT":"ELEMENT-12"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"div[data-autoid=\"nav:sideNavLinksMenu\"] button:nth-child(4)"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"button[aria-label=\"Go back in Site Navigation\"]"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-14"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"button[aria-label=\"Go back in Site Navigation\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-15","ELEMENT":"ELEMENT-15"}]}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-14","ELEMENT":"ELEMENT-14"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"div[data-autoid=\"nav:sideNavLinksMenu\"] button:nth-child(5)"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"button[aria-label=\"Go back in Site Navigation\"]"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-16"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"button[aria-label=\"Go back in Site Navigation\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-17","ELEMENT":"ELEMENT-17"}]}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-16","ELEMENT":"ELEMENT-16"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"div[class=\"_SiteNav-a _SiteNav-c _SiteNav-d _SiteNav-en _SiteNav-fj _SiteNav-fk _SiteNav-fl _SiteNav-fm _SiteNav-fn _SiteNav-h _SiteNav-j\"]"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"div[class=\"_SiteNav-a _SiteNav-c _SiteNav-d _SiteNav-en _SiteNav-fj _SiteNav-fk _SiteNav-fl _SiteNav-fm _SiteNav-fn _SiteNav-h _SiteNav-j\"]"}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
