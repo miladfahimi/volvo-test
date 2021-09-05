@@ -8,24 +8,13 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '12.x'
-      - run: npm install
-  test:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '12.x'
-      - run: npm run test
-
-  report:
-    runs-on: ubuntu-latest
-    if: always()
-    needs: test
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '12.x'
-      - run: npm run report
+      - name: Build npm dependencies
+        run: npm install
+      - name: Run tests
+        run: npm run test
+      - name: Create reports
+        if: always()
+        run: npm run report
+      - name: Copy reports to doc
+        if: always()
+        run: cp -r allure-report docs
