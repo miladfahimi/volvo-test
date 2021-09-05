@@ -1,20 +1,40 @@
-name: Node.js Package
-on: [push]
+name: CI
+on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '12.x'
-      - name: Build npm dependencies
-        run: npm install
-      - name: Run tests
-        run: npm run test
-      - name: Create reports
-        if: always()
-        run: npm run report
-      - name: Copy reports to doc
-        if: always()
-        run: cp -r allure-report docs
+        - name: Checkout
+          uses: actions/checkout@v2
+        - name: Install
+          uses: ianwalter/puppeteer-container@acc52cd2334ad9eaf6e1974562d263e0a711b7e8
+          with:
+            args: npm install
+        - name: update Chrome
+          run:  sudo apt-get update && sudo apt-get install --only-upgrade google-chrome-stable
+        - name: make folders
+          uses: ianwalter/puppeteer-container@acc52cd2334ad9eaf6e1974562d263e0a711b7e8
+          with:
+            args: npm run making-folders
+        - name: test
+          run: |
+            mkdir -p -m777 reports/allure-results reports/screenshots report
+            ls -al
+            pwd
+            npx wdio
+        - name: Create reports
+          if: always()
+          run: |
+            branch=$(git branch --show-current)
+            t=$(date +"%y%m%d-%Hh%Mm%Ss")
+            git checkout -b gh-pages
+            npm run report
+            mkdir -p ${branch}/${t}
+            cp -r allure-report/* ${branch}/${t}/
+            git config --global user.name "githubaction"
+            git config --global user.email "githubaction@githubaction.com"
+            git status
+            git add ${branch}
+            git commit -m "Add allure reports for ${branch} at ${t} "
+            git push origin gh-pages -u --force
+            echo "View test reports here: https://miladfahimi.github.io/volvo-test/${branch}/${t}"
