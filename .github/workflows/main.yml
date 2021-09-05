@@ -17,14 +17,15 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '12.x'
-      - run: npm test
+      - run: npm run test
 
   report:
     runs-on: ubuntu-latest
     if: always()
+    needs: test
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: '12.x'
-      - run: npm report
+      - run: npm run report
