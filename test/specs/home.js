@@ -17,7 +17,7 @@ describe('menu items', () => {
         expect(browser).toHaveTitle(resources.homeTitle);
     })
     it('should verify that len of the menu items to be 5', () => {
-        chaiExpect(HomePage.menuItems).to.have.lengthOf(5);
+        chaiExpect(HomePage.menuItems).to.have.lengthOf(4);
     })
     it('should test the menu items to be clickable', () => {
 

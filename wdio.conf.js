@@ -1,3 +1,5 @@
+const moment = require('moment');
+
 exports.config = {
     //
     // ====================
@@ -133,7 +135,9 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
+    reporters: [['allure', {
+        outputDir: './reports/allure-results/',
+    }]],
 
 
     
@@ -222,8 +226,11 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: function (test, context, { error, result, duration, passed, retries }) {
+        if (error) {
+            browser.saveScreenshot('./reports/screenshots/Fail_' + moment().format('DD-MMM-YYYY-HH-MM-SS') + '.png')
+        }
+    },
 
 
     /**
