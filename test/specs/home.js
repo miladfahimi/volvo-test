@@ -11,13 +11,13 @@ const assert = chai.assert
 describe('menu items', () => {
     before(() => {
         HomePage.open();
-        
+
     })
     it('should verify the title', () => {
         expect(browser).toHaveTitle(resources.homeTitle);
     })
     it('should verify that len of the menu items to be 5', () => {
-        chaiExpect(HomePage.menuItems).to.have.lengthOf(4);
+        chaiExpect(HomePage.menuItems).to.have.lengthOf(5);
     })
     it('should test the menu items to be clickable', () => {
 
@@ -33,7 +33,7 @@ describe('menu items', () => {
         waitAndClick(HomePage.menuItem5, homePage.backBtn,);
 
         expect(HomePage.menuBody).toBeExisting();
-        
+
     })
 })
 
