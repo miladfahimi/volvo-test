@@ -136,3 +136,4 @@ dist
 .tern-port
 reports
 report
+allure-report
