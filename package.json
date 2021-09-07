@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "update-chrome": "./update-chrome.sh",
-    "making-folders": "mkdir -p -m777 reports/allure-results reports/screenshot report docs && ls -al && pwd && chmod -R 777 ./reports",
-    "test": "npx wdio",
+    "test": "mkdir -p reports/allure-results reports/screenshots report && npx wdio",
     "report": "npx allure generate reports/allure-results --clean"
   },
   "keywords": [],
