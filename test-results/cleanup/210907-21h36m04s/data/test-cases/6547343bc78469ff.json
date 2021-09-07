@@ -1,0 +1,170 @@
+{
+  "uid" : "6547343bc78469ff",
+  "name" : "should have a header text including -> Safer and smarter. Better business for you.",
+  "fullName" : "Test fleet page.should have a header text including -> Safer and smarter. Better business for you.",
+  "historyId" : "68c73e6f4d0e51b75bf9574a1a29d48e",
+  "time" : {
+    "start" : 1631050559466,
+    "stop" : 1631050559600,
+    "duration" : 134
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1631050559467,
+        "stop" : 1631050559526,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "970d62d7463acd44",
+        "name" : "Request",
+        "source" : "970d62d7463acd44.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "3ad877b9feb1d712",
+        "name" : "Response",
+        "source" : "3ad877b9feb1d712.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631050559535,
+        "stop" : 1631050559561,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9ba1d28df9bc4648",
+        "name" : "Request",
+        "source" : "9ba1d28df9bc4648.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "d10116f1cd6776e4",
+        "name" : "Response",
+        "source" : "d10116f1cd6776e4.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1631050559562,
+        "stop" : 1631050559573,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6e69c82b3cb5e96",
+        "name" : "Request",
+        "source" : "6e69c82b3cb5e96.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "b0dc5d5a93dee74f",
+        "name" : "Response",
+        "source" : "b0dc5d5a93dee74f.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/2bd82a3a-069c-417e-8e2e-e912be59bb06/text",
+      "time" : {
+        "start" : 1631050559577,
+        "stop" : 1631050559599,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "26991b504424d850",
+        "name" : "Response",
+        "source" : "26991b504424d850.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "testClass",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have a header text including -> Safer and smarter. Better business for you."
+  }, {
+    "name" : "package",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6547343bc78469ff.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}
