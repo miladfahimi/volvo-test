@@ -1,0 +1,110 @@
+{
+  "uid" : "ab77d4b31129076b",
+  "name" : "should verify the title",
+  "fullName" : "menu items.should verify the title",
+  "historyId" : "537be2417a8bf819054d723738e5f17a",
+  "time" : {
+    "start" : 1631049844268,
+    "stop" : 1631049845815,
+    "duration" : 1547
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1631049844271,
+        "stop" : 1631049845782,
+        "duration" : 1511
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f6841ca6ddac313",
+        "name" : "Request",
+        "source" : "7f6841ca6ddac313.json",
+        "type" : "application/json",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1631049845785,
+        "stop" : 1631049845813,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35483945fea5de93",
+        "name" : "Response",
+        "source" : "35483945fea5de93.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "menu items"
+  }, {
+    "name" : "testClass",
+    "value" : "menu items"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify the title"
+  }, {
+    "name" : "package",
+    "value" : "menu items"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab77d4b31129076b.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}

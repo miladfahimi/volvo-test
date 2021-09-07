@@ -1,0 +1,110 @@
+{
+  "uid" : "c72fa5a78bc4240e",
+  "name" : "should verify the title",
+  "fullName" : "Test fleet page.should verify the title",
+  "historyId" : "a37506798e4e37a99203ea5e38b5e32b",
+  "time" : {
+    "start" : 1631049844264,
+    "stop" : 1631049845914,
+    "duration" : 1650
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1631049844267,
+        "stop" : 1631049845890,
+        "duration" : 1623
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e71eaabcb57b9b0c",
+        "name" : "Request",
+        "source" : "e71eaabcb57b9b0c.json",
+        "type" : "application/json",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1631049845893,
+        "stop" : 1631049845912,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de4ad21b50bbdfbe",
+        "name" : "Response",
+        "source" : "de4ad21b50bbdfbe.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "testClass",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify the title"
+  }, {
+    "name" : "package",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c72fa5a78bc4240e.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}

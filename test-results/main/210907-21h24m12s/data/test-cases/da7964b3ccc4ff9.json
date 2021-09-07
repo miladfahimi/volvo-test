@@ -1,0 +1,124 @@
+{
+  "uid" : "da7964b3ccc4ff9",
+  "name" : "should the second header text not to be empty",
+  "fullName" : "Test fleet page.should the second header text not to be empty",
+  "historyId" : "6a2014fd587f3a96fe9b85063eab45df",
+  "time" : {
+    "start" : 1631049846213,
+    "stop" : 1631049846344,
+    "duration" : 131
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : ".empty was passed non-string primitive undefined",
+  "statusTrace" : "AssertionError: .empty was passed non-string primitive undefined\n                    at Context.<anonymous> (/home/runner/work/volvo-test/volvo-test/test/specs/fleet.js:24:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : ".empty was passed non-string primitive undefined",
+    "statusTrace" : "AssertionError: .empty was passed non-string primitive undefined\n                    at Context.<anonymous> (/home/runner/work/volvo-test/volvo-test/test/specs/fleet.js:24:16)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1631049846213,
+        "stop" : 1631049846223,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "78a642f5659bc9d4",
+        "name" : "Request",
+        "source" : "78a642f5659bc9d4.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "2e95f58fc45f1f98",
+        "name" : "Response",
+        "source" : "2e95f58fc45f1f98.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1631049846226,
+        "stop" : 1631049846343,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd65b1cd00674585",
+        "name" : "Screenshot",
+        "source" : "fd65b1cd00674585.png",
+        "type" : "image/png",
+        "size" : 45901
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "testClass",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should the second header text not to be empty"
+  }, {
+    "name" : "package",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "da7964b3ccc4ff9.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}
