@@ -1,0 +1,104 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Test fleet page",
+    "children" : [ {
+      "name" : "should verify the title",
+      "uid" : "58ade18caf77a5f8",
+      "parentUid" : "ffd491c98eba301d8fbd4c8b6e38834e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631049590178,
+        "stop" : 1631049592504,
+        "duration" : 2326
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    }, {
+      "name" : "should have a url containing -> /buy/fleet-cars",
+      "uid" : "e4a569c1d8806643",
+      "parentUid" : "ffd491c98eba301d8fbd4c8b6e38834e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631049592504,
+        "stop" : 1631049592563,
+        "duration" : 59
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    }, {
+      "name" : "should have a header text including -> Safer and smarter. Better business for you.",
+      "uid" : "13ad29385a3f2bc3",
+      "parentUid" : "ffd491c98eba301d8fbd4c8b6e38834e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1631049592563,
+        "stop" : 1631049592737,
+        "duration" : 174
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    }, {
+      "name" : "should the second header text not to be empty",
+      "uid" : "4652b61a4a8cd1e1",
+      "parentUid" : "ffd491c98eba301d8fbd4c8b6e38834e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1631049592738,
+        "stop" : 1631049592900,
+        "duration" : 162
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    } ],
+    "uid" : "ffd491c98eba301d8fbd4c8b6e38834e"
+  }, {
+    "name" : "menu items",
+    "children" : [ {
+      "name" : "should verify the title",
+      "uid" : "7bf5aaee292a67f1",
+      "parentUid" : "0d9ddea9b97220b551340f7dd151c794",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631049590179,
+        "stop" : 1631049592397,
+        "duration" : 2218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    }, {
+      "name" : "should verify that len of the menu items to be 5",
+      "uid" : "d0d6a8fec5421a6b",
+      "parentUid" : "0d9ddea9b97220b551340f7dd151c794",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631049592397,
+        "stop" : 1631049592442,
+        "duration" : 45
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    }, {
+      "name" : "should test the menu items to be clickable",
+      "uid" : "854166d7036f0d46",
+      "parentUid" : "0d9ddea9b97220b551340f7dd151c794",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631049592442,
+        "stop" : 1631049598358,
+        "duration" : 5916
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    } ],
+    "uid" : "0d9ddea9b97220b551340f7dd151c794"
+  } ],
+  "name" : "packages"
+}
