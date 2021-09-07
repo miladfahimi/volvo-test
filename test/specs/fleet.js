@@ -17,7 +17,7 @@ describe('Test fleet page', () => {
         chaiExpect(FleetPage.url).to.include('/buy/fleet-cars');
     });
     it('should have a header text including -> Safer and smarter. Better business for you.', () => {
-        FleetPage.headerText.waitForDisplayed();
+        FleetPage.headerText.waitForDisplayed({timeout: 3000});
         expect(FleetPage.headerText).toHaveTextContaining('Safer and smarter. Better business for you.');
     });
     it('should the second header text not to be empty', () => {
