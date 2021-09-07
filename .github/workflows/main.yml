@@ -27,14 +27,15 @@ jobs:
           run: |
             branch=$(git branch --show-current)
             t=$(date +"%y%m%d-%Hh%Mm%Ss")
-            git checkout -b gh-pages
+            dest="test-results/${branch}/${t}"
+            git checkout -b gh-pages origin/gh-pages
             npm run report
-            mkdir -p ${branch}/${t}
-            cp -r allure-report/* ${branch}/${t}/
+            mkdir -p ${dest}
+            cp -r allure-report/* ${dest}/
             git config --global user.name "githubaction"
             git config --global user.email "githubaction@githubaction.com"
             git status
             git add ${branch}
-            git commit -m "Add allure reports for ${branch} at ${t} "
+            git commit -m "Add allure reports for branch: ${branch} at date: ${t} "
             git push origin gh-pages -u --force
-            echo "View test reports here: https://miladfahimi.github.io/volvo-test/${branch}/${t}"
+            echo "View test reports here: https://miladfahimi.github.io/volvo-test/${dest}/"
