@@ -1,0 +1,96 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "should verify the title",
+    "uid" : "44a4d1b3e017f3d4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631116513916,
+      "stop" : 1631116516274,
+      "duration" : 2358
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.159" ]
+  }, {
+    "name" : "should verify the title",
+    "uid" : "c0dc9261c1e32834",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631116513924,
+      "stop" : 1631116515906,
+      "duration" : 1982
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.159" ]
+  }, {
+    "name" : "should verify that len of the menu items to be 5",
+    "uid" : "4e2db755fee9bf93",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631116515909,
+      "stop" : 1631116515943,
+      "duration" : 34
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.159" ]
+  }, {
+    "name" : "should test the menu items to be clickable",
+    "uid" : "be712ffbc5dea2bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631116515943,
+      "stop" : 1631116521143,
+      "duration" : 5200
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.159" ]
+  }, {
+    "name" : "should have a url containing -> /buy/fleet-cars",
+    "uid" : "10bc0bfa61750c58",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631116516275,
+      "stop" : 1631116516310,
+      "duration" : 35
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.159" ]
+  }, {
+    "name" : "should have a header text including -> Safer and smarter. Better business for you.",
+    "uid" : "7fdb261753fbcb33",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1631116516311,
+      "stop" : 1631116516529,
+      "duration" : 218
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.159" ]
+  }, {
+    "name" : "should the second header text not to be empty",
+    "uid" : "2889aa552c4ead04",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1631116516529,
+      "stop" : 1631116516647,
+      "duration" : 118
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-92.0.4515.159" ]
+  } ],
+  "name" : "behaviors"
+}

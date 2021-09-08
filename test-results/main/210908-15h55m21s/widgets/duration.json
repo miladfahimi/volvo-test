@@ -1,0 +1,71 @@
+[ {
+  "uid" : "44a4d1b3e017f3d4",
+  "name" : "should verify the title",
+  "time" : {
+    "start" : 1631116513916,
+    "stop" : 1631116516274,
+    "duration" : 2358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0dc9261c1e32834",
+  "name" : "should verify the title",
+  "time" : {
+    "start" : 1631116513924,
+    "stop" : 1631116515906,
+    "duration" : 1982
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e2db755fee9bf93",
+  "name" : "should verify that len of the menu items to be 5",
+  "time" : {
+    "start" : 1631116515909,
+    "stop" : 1631116515943,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10bc0bfa61750c58",
+  "name" : "should have a url containing -> /buy/fleet-cars",
+  "time" : {
+    "start" : 1631116516275,
+    "stop" : 1631116516310,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fdb261753fbcb33",
+  "name" : "should have a header text including -> Safer and smarter. Better business for you.",
+  "time" : {
+    "start" : 1631116516311,
+    "stop" : 1631116516529,
+    "duration" : 218
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "be712ffbc5dea2bf",
+  "name" : "should test the menu items to be clickable",
+  "time" : {
+    "start" : 1631116515943,
+    "stop" : 1631116521143,
+    "duration" : 5200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2889aa552c4ead04",
+  "name" : "should the second header text not to be empty",
+  "time" : {
+    "start" : 1631116516529,
+    "stop" : 1631116516647,
+    "duration" : 118
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

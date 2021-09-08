@@ -1,0 +1,124 @@
+{
+  "uid" : "7fdb261753fbcb33",
+  "name" : "should have a header text including -> Safer and smarter. Better business for you.",
+  "fullName" : "Test fleet page.should have a header text including -> Safer and smarter. Better business for you.",
+  "historyId" : "68c73e6f4d0e51b75bf9574a1a29d48e",
+  "time" : {
+    "start" : 1631116516311,
+    "stop" : 1631116516529,
+    "duration" : 218
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'waitForDisplayed' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'waitForDisplayed' of undefined\n                    at Context.<anonymous> (/home/runner/work/volvo-test/volvo-test/test/specs/fleet.js:20:30)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'waitForDisplayed' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'waitForDisplayed' of undefined\n                    at Context.<anonymous> (/home/runner/work/volvo-test/volvo-test/test/specs/fleet.js:20:30)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1631116516312,
+        "stop" : 1631116516327,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f218ac2e5a583e1",
+        "name" : "Request",
+        "source" : "4f218ac2e5a583e1.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "2315495819b5e0ec",
+        "name" : "Response",
+        "source" : "2315495819b5e0ec.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1631116516347,
+        "stop" : 1631116516527,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac83905bc9164bc8",
+        "name" : "Screenshot",
+        "source" : "ac83905bc9164bc8.png",
+        "type" : "image/png",
+        "size" : 47983
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "testClass",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have a header text including -> Safer and smarter. Better business for you."
+  }, {
+    "name" : "package",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7fdb261753fbcb33.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}
