@@ -1,0 +1,104 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Test fleet page",
+    "children" : [ {
+      "name" : "should verify the title",
+      "uid" : "b15c4028085d8356",
+      "parentUid" : "f2337da2d68981b4bab1094f163195c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631126810599,
+        "stop" : 1631126812477,
+        "duration" : 1878
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    }, {
+      "name" : "should have a url containing -> /buy/fleet-cars",
+      "uid" : "5f3cb6b0fa098668",
+      "parentUid" : "f2337da2d68981b4bab1094f163195c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631126812477,
+        "stop" : 1631126812530,
+        "duration" : 53
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    }, {
+      "name" : "should have a header text including -> Safer and smarter. Better business for you.",
+      "uid" : "4b6f8c204e262abd",
+      "parentUid" : "f2337da2d68981b4bab1094f163195c0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1631126812531,
+        "stop" : 1631126812681,
+        "duration" : 150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    }, {
+      "name" : "should the second header text not to be empty",
+      "uid" : "21f6ddf01bfc71ba",
+      "parentUid" : "f2337da2d68981b4bab1094f163195c0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1631126812681,
+        "stop" : 1631126812800,
+        "duration" : 119
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    } ],
+    "uid" : "f2337da2d68981b4bab1094f163195c0"
+  }, {
+    "name" : "menu items",
+    "children" : [ {
+      "name" : "should verify the title",
+      "uid" : "64a3bb0bffa136bd",
+      "parentUid" : "1002c3fb9430cb281f222bccd9f62f87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631126810599,
+        "stop" : 1631126813818,
+        "duration" : 3219
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    }, {
+      "name" : "should verify that len of the menu items to be 5",
+      "uid" : "7f0693c0ad804339",
+      "parentUid" : "1002c3fb9430cb281f222bccd9f62f87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631126813819,
+        "stop" : 1631126813863,
+        "duration" : 44
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    }, {
+      "name" : "should test the menu items to be clickable",
+      "uid" : "e79df08f987f5741",
+      "parentUid" : "1002c3fb9430cb281f222bccd9f62f87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631126813863,
+        "stop" : 1631126818835,
+        "duration" : 4972
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    } ],
+    "uid" : "1002c3fb9430cb281f222bccd9f62f87"
+  } ],
+  "name" : "suites"
+}

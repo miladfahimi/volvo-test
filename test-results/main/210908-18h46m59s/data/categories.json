@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot read property 'waitForDisplayed' of undefined",
+      "children" : [ {
+        "name" : "should have a header text including -> Safer and smarter. Better business for you.",
+        "uid" : "4b6f8c204e262abd",
+        "parentUid" : "7502b68edd8363958c71cf09a88cf4c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631126812531,
+          "stop" : 1631126812681,
+          "duration" : 150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-92.0.4515.159" ]
+      } ],
+      "uid" : "7502b68edd8363958c71cf09a88cf4c5"
+    }, {
+      "name" : ".empty was passed non-string primitive undefined",
+      "children" : [ {
+        "name" : "should the second header text not to be empty",
+        "uid" : "21f6ddf01bfc71ba",
+        "parentUid" : "c3795f3c8f8db7716086bbd742491995",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631126812681,
+          "stop" : 1631126812800,
+          "duration" : 119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-92.0.4515.159" ]
+      } ],
+      "uid" : "c3795f3c8f8db7716086bbd742491995"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
