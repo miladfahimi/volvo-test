@@ -1,0 +1,95 @@
+{
+  "uid" : "d96381fdfa1e5940",
+  "name" : "should verify that len of the menu items to be 5",
+  "fullName" : "menu items.should verify that len of the menu items to be 5",
+  "historyId" : "b88599cba515dfc733c63b527ec8c5a4",
+  "time" : {
+    "start" : 1631128673953,
+    "stop" : 1631128674022,
+    "duration" : 69
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1631128673961,
+        "stop" : 1631128673983,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dad4dfd17dc88e8a",
+        "name" : "Request",
+        "source" : "dad4dfd17dc88e8a.json",
+        "type" : "application/json",
+        "size" : 92
+      }, {
+        "uid" : "ba18454de413a0ad",
+        "name" : "Response",
+        "source" : "ba18454de413a0ad.json",
+        "type" : "application/json",
+        "size" : 457
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "menu items"
+  }, {
+    "name" : "testClass",
+    "value" : "menu items"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify that len of the menu items to be 5"
+  }, {
+    "name" : "package",
+    "value" : "menu items"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d96381fdfa1e5940.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}

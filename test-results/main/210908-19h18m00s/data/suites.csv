@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 08 19:17:53 UTC 2021","Wed Sep 08 19:17:54 UTC 2021","69","","menu items","","menu items","should verify that len of the menu items to be 5","should verify that len of the menu items to be 5",""
+"broken","Wed Sep 08 19:17:54 UTC 2021","Wed Sep 08 19:17:54 UTC 2021","241","","Test fleet page","","Test fleet page","should have a header text including -> Safer and smarter. Better business for you.","should have a header text including -> Safer and smarter. Better business for you.",""
+"passed","Wed Sep 08 19:17:52 UTC 2021","Wed Sep 08 19:17:53 UTC 2021","1925","","menu items","","menu items","should verify the title","should verify the title",""
+"passed","Wed Sep 08 19:17:54 UTC 2021","Wed Sep 08 19:17:59 UTC 2021","5710","","menu items","","menu items","should test the menu items to be clickable","should test the menu items to be clickable",""
+"broken","Wed Sep 08 19:17:54 UTC 2021","Wed Sep 08 19:17:54 UTC 2021","168","","Test fleet page","","Test fleet page","should the second header text not to be empty","should the second header text not to be empty",""
+"passed","Wed Sep 08 19:17:54 UTC 2021","Wed Sep 08 19:17:54 UTC 2021","52","","Test fleet page","","Test fleet page","should have a url containing -> /buy/fleet-cars","should have a url containing -> /buy/fleet-cars",""
+"passed","Wed Sep 08 19:17:52 UTC 2021","Wed Sep 08 19:17:54 UTC 2021","2114","","Test fleet page","","Test fleet page","should verify the title","should verify the title",""
