@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button[aria-label=\"Go back in Site Navigation\"]\"}\n  (Session info: headless chrome=92.0.4515.159)",
+  "stacktrace": "#0 0x56177cc16a63 <unknown>\n#1 0x56177c98b458 <unknown>\n#2 0x56177c9c0ca5 <unknown>\n#3 0x56177c9f3534 <unknown>\n#4 0x56177c9de10d <unknown>\n#5 0x56177c9f123c <unknown>\n#6 0x56177c9ddfd3 <unknown>\n#7 0x56177c9b4514 <unknown>\n#8 0x56177c9b5505 <unknown>\n#9 0x56177cc42e2e <unknown>\n#10 0x56177cc58886 <unknown>\n#11 0x56177cc43d75 <unknown>\n#12 0x56177cc59d94 <unknown>\n#13 0x56177cc3a8eb <unknown>\n#14 0x56177cc74cd8 <unknown>\n#15 0x56177cc74e58 <unknown>\n#16 0x56177cc8edfd <unknown>\n#17 0x7ff9bf626609 start_thread\n"
+}
