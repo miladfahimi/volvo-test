@@ -38,8 +38,6 @@ jobs:
             git fetch -a
             echo "Checkout origin/gh-pages"
             git checkout -b gh-pages origin/gh-pages
-            echo "Update home results page"
-            sed -i -e '/<!-- insert here -->/a\<a href=https://miladfahimi.github.io/volvo-test/test-results/'"${branch}"'/'"${t}"'>Test result for branch: '"${branch}"'    time: '"${t}"'   </a></br>' index.html
             echo "Cherry pick on top of github pages"
             git cherry-pick wip
             echo "Push the test results to github pages"
