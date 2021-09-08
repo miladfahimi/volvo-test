@@ -30,7 +30,8 @@ In CI/CD environment github actions comes to help us by triggering a workflow to
 To show the result of the test after pushing the code related workflow starts the steps to prepare the environment, running the test, and finally copy report folder in a folder which will serve by github.
 For access to the link of result open [Github Actions][github-actions] page and click on latest running workflow related your branch and commits, then in the end of "Create reports step" find the link of report.
 The links following a pattern as below:
-"https://miladfahimi.github.io/volvo-test/test-results/<branch>/<Date&Time>/"
+"https://miladfahimi.github.io/volvo-test/test-results/<Branch_name>/<Date&Time>/"
+
 Example: [https://miladfahimi.github.io/volvo-test/test-results/main/210908-15h55m21s/][example-report]
 
 
