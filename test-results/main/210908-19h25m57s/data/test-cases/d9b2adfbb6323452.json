@@ -1,0 +1,95 @@
+{
+  "uid" : "d9b2adfbb6323452",
+  "name" : "should verify that len of the menu items to be 5",
+  "fullName" : "menu items.should verify that len of the menu items to be 5",
+  "historyId" : "b88599cba515dfc733c63b527ec8c5a4",
+  "time" : {
+    "start" : 1631129151391,
+    "stop" : 1631129151528,
+    "duration" : 137
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1631129151393,
+        "stop" : 1631129151500,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a73a1bcb1be216ac",
+        "name" : "Request",
+        "source" : "a73a1bcb1be216ac.json",
+        "type" : "application/json",
+        "size" : 92
+      }, {
+        "uid" : "ed43c6f497ca6269",
+        "name" : "Response",
+        "source" : "ed43c6f497ca6269.json",
+        "type" : "application/json",
+        "size" : 457
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "menu items"
+  }, {
+    "name" : "testClass",
+    "value" : "menu items"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify that len of the menu items to be 5"
+  }, {
+    "name" : "package",
+    "value" : "menu items"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9b2adfbb6323452.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}

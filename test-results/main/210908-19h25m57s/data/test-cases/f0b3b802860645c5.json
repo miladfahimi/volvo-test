@@ -1,0 +1,89 @@
+{
+  "uid" : "f0b3b802860645c5",
+  "name" : "should have a url containing -> /buy/fleet-cars",
+  "fullName" : "Test fleet page.should have a url containing -> /buy/fleet-cars",
+  "historyId" : "c7ef997e8469c76036dfdc5c66993d6b",
+  "time" : {
+    "start" : 1631129151812,
+    "stop" : 1631129151916,
+    "duration" : 104
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1631129151812,
+        "stop" : 1631129151889,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "989b0b793fc3f7b2",
+        "name" : "Response",
+        "source" : "989b0b793fc3f7b2.json",
+        "type" : "application/json",
+        "size" : 49
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "testClass",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have a url containing -> /buy/fleet-cars"
+  }, {
+    "name" : "package",
+    "value" : "Test fleet page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0b3b802860645c5.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}
